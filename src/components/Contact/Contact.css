@@ -1,0 +1,43 @@
+.form-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    justify-items: center;
+}
+
+.home-container{
+    z-index: -1;
+}
+
+h3{
+    z-index: 0;
+}
+
+.form-container{
+    width: 100%;
+}
+
+.animated-component {
+    position: relative;
+    left: -100%; /* Start off-screen on the left */
+    visibility: hidden;
+    transition: left 0.5s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .animate {
+    visibility: visible;
+    left: 0; /* Move to the final position (on-screen) */
+  }
+
+  .yellow-rectangle-new {
+    width: 65%;
+    height: 55vh;
+    margin-bottom: -480px;
+    background-color: yellow;
+}
+
+.Button{
+    z-index: 1;
+}

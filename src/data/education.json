@@ -1,0 +1,45 @@
+{
+    "type":"education",
+    "items":[
+        {
+            "name": "Clark University",
+            "location": "Worcester, Massachusetts",
+            "role": "Master's in Computer Science",
+            "startDate":"Aug, 2023",
+            "endDate":"Current",
+            "desc": "As a master's student delve deeply into a chosen specialization, such as AI or cybersecurity.<br/> Engaging in research projects and completing a thesis fosters innovation and contributes to the field.<br/>Advanced skill development and industry-focused coursework prepare students for specialized roles in the tech sector.<br/>",
+            "jobtype": "full-time",
+            "companyurl":"https://www.clarku.edu/"
+        },
+        {
+            "name": "Amrita Vishwa Vidyapeetham",
+            "location": "Tamilnadu, India",
+            "role": "Bachelor's of Technology in Computer Science",
+            "startDate":"July, 2016",
+            "endDate":"Aug, 2020",
+            "desc": "Performing coursework to gain a broad understanding of computer science principles.<br/>Engage in practical coding projects, honing skills in software development and problem-solving.<br/>Collaborating on group projects enhances communication and teamwork abilities.<br/>Seeking internships provides real-world exposure, allowing students to apply classroom knowledge in professional settings.",
+            "jobtype": "full-time",
+            "companyurl":"https://www.amrita.edu/"
+        },
+        {
+            "name": "Sri Chaitanya IIT Academy",
+            "location": "Andhra Pradesh, India",
+            "role": "High school",
+            "startDate":"July, 2014",
+            "endDate":"Apr, 2016",
+            "desc": "dedicate time to thorough preparation for board exams, a critical component of the Indian education system.<br/>Exploring potential career paths and considering future academic pursuits is a key responsibility.<br/>Participation in extracurricular activities, such as sports or cultural events, contributes to holistic personal development.",
+            "jobtype": "Internship",
+            "companyurl":"https://srichaitanyaschool.net/"
+        },{
+            "name": "Dr. K.K.R Gowtham International School",
+            "location": "Andhra Pradesh, India",
+            "role": "Middle school",
+            "startDate":"July, 2011",
+            "endDate":"Apr, 2014",
+            "desc": "Expected to prioritize their studies, covering a diverse range of subjects.<br/>Completing assignments and preparing for exams are essential responsibilities for academic success.<br/>Expected to maintain discipline and adhere to school rules, fostering a positive learning environment.<br/>Engaging in extracurricular activities, such as sports and cultural events, contributes to overall development and character-building.",
+            "jobtype": "Internship",
+            "companyurl":"http://kkrgowtham.com/?page_id=56"
+        }
+    ]
+}
+

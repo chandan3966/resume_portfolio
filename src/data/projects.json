@@ -1,0 +1,57 @@
+{
+    "type":"projects",
+    "items":[
+        {
+            "name": "Speak in English",
+            "location": "Hyderabad, India",
+            "platform": "Android",
+            "startDate":"Sep, 2022",
+            "endDate":"In-progress",
+            "shortdesc":"Mobile application to connect with random people to practice English language",
+            "desc": "By improving and incorporating novel features into established android applications, a significant increase in user engagement of 22% was realized <br/> Employed third-party APIs to facilitate seamless access to external, in-app cloud data <br/> Oversaw development of proprietary SDK for advertisements and data for organization, resulting in 9.6% increase in overall revenue.<br/> Maintained comprehensive knowledge of mobile development cycle and addressed challenges arising in each phase",
+            "techstack": ["Kotlin","XML","Java","Figma","Android SDK","Rest API","Firebase","Google Ads SDK","Git"],
+            "producturl":"https://drive.google.com/file/d/16_k68wpkIcnr45jOzNLEi98BFYBeCdBx/view?usp=drive_link",
+            "document":"https://github.com/chandan3966/SpeakInEnglish",
+            "imageurl":"https://i.imgur.com/37Bnr21.png"
+        },
+        {
+            "name": "Scribe",
+            "location": "Hyderabad, India",
+            "platform": "Web Application",
+            "startDate":"Apr, 2019",
+            "endDate":"May, 2019",
+            "shortdesc":"Web application to create blogs where others can see and comments on any particular blog",
+            "desc": "By improving and incorporating novel features into established android applications, a significant increase in user engagement of 22% was realized <br/> Employed third-party APIs to facilitate seamless access to external, in-app cloud data <br/> Oversaw development of proprietary SDK for advertisements and data for organization, resulting in 9.6% increase in overall revenue.<br/> Maintained comprehensive knowledge of mobile development cycle and addressed challenges arising in each phase",
+            "techstack": ["HTML","CSS","Typescript", "Angular","Git","Firebase"],
+            "producturl":"https://scribe-98237.web.app/home",
+            "document":"",
+            "imageurl":"https://i.imgur.com/ShDZFMU.png"
+        },
+        {
+            "name": "Speak in English",
+            "location": "Hyderabad, India",
+            "platform": "Android",
+            "startDate":"Sep, 2021",
+            "endDate":"In-progress",
+            "shortdesc":"Mobile application to connect with random people to practice English language",
+            "desc": "By improving and incorporating novel features into established android applications, a significant increase in user engagement of 22% was realized <br/> Employed third-party APIs to facilitate seamless access to external, in-app cloud data <br/> Oversaw development of proprietary SDK for advertisements and data for organization, resulting in 9.6% increase in overall revenue.<br/> Maintained comprehensive knowledge of mobile development cycle and addressed challenges arising in each phase",
+            "techstack": ["Kotlin","XML","Java","Figma","Android SDK","Rest API","Firebase","Google Ads SDK","Git"],
+            "producturl":"https://drive.google.com/file/d/16_k68wpkIcnr45jOzNLEi98BFYBeCdBx/view?usp=drive_link",
+            "document":"https://github.com/chandan3966/SpeakInEnglish",
+            "imageurl":"https://i.imgur.com/ShDZFMU.png"
+        },
+        {
+            "name": "ChatApp",
+            "location": "Coimbatore, India",
+            "platform": "Android",
+            "startDate":"Jul, 2019",
+            "endDate":"Dec, 2019",
+            "shortdesc":"Mobile application to chat with people similar to what of WhatsApp with end-to-end encryption.",
+            "desc": "By improving and incorporating novel features into established android applications, a significant increase in user engagement of 22% was realized <br/> Employed third-party APIs to facilitate seamless access to external, in-app cloud data <br/> Oversaw development of proprietary SDK for advertisements and data for organization, resulting in 9.6% increase in overall revenue.<br/> Maintained comprehensive knowledge of mobile development cycle and addressed challenges arising in each phase",
+            "techstack": ["Kotlin","XML","Java","Figma","Android SDK","Rest API","NodeJS","Express","MongoDB","Google Ads SDK","Git"],
+            "producturl":"",
+            "document":"https://github.com/chandan3966/AndroidChat",
+            "imageurl":"https://i.imgur.com/DisFMEi.png"
+        }
+    ]
+}

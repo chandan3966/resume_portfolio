@@ -1,0 +1,132 @@
+
+.home-container{
+    z-index: -1;
+}
+
+.animated-component {
+    position: relative;
+    left: -100%; /* Start off-screen on the left */
+    visibility: hidden;
+    transition: left 0.5s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .animate {
+    visibility: visible;
+    left: 0; /* Move to the final position (on-screen) */
+  }
+
+  .info-container{
+    position: relative;
+    visibility: hidden;
+    right: -100%; /* Start off-screen on the left */
+    transition: right 0.5s ease-in-out; /* Add a smooth transition effect */
+  }
+
+  .animate-data{
+    visibility: visible;
+    right:0;
+  }
+
+.yellow-rectangle {
+    width: 50%;
+    height: 60vh;
+    margin-bottom: -400px;
+    background-color: yellow;
+}
+  
+.self_img{
+    background-color: yellow;
+    position: relative; 
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden; 
+    align-self: center;
+    border-radius: 50%; 
+} 
+  
+.self_img img { 
+    width: 80%; 
+    margin-top: -5vh;
+    height: auto; 
+}
+
+
+.card-view,.text-view{
+    width: 50%;
+    display: flex;
+    opacity: 1;
+    padding: 10px;
+}
+
+.card-view{
+    justify-content: right;
+}
+
+.text-view{
+    justify-content: left;
+}
+
+
+@media screen and (max-width: 600px) {
+    .card-view,.text-view {
+       width: 100%;
+       float: none
+    }
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.hr {
+    width: 150px;
+    border: 1px solid #000000; /* Change the color and style as needed */
+    margin: 20px 0; /* Adjust the margin as needed */
+  }
+
+h3 {
+    margin-bottom: 10px;
+}
+
+
+h5 {
+    margin-bottom: 20px;
+}
+
+
+p {
+    margin-bottom: 20px;
+}
+
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+
+
+.work-title
+,.work-subtitle{
+    font-family: Courier, monospace;
+    font-weight: 600;
+    max-width: 400px;
+
+}
+
+.work-desc{
+    max-width: 300px;
+    font-size: 12px;
+}

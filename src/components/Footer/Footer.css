@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+  }
+
+
+.left-items,
+.right-items {
+  flex: 1;
+  width: 50%;
+  /* box-sizing: border-box; */
+}
+
+img{
+    width: 15px;
+  height: 15px;
+}
+
+.headings{
+  align-self: center;
+  font-size: 10px;
+  justify-content: center;
+  justify-self: center;
+}
+

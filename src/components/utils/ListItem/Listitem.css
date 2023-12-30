@@ -1,0 +1,51 @@
+.card-container{
+    width: 150vh    ;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    border: 0.2px solid #232323;
+    box-shadow: 0 15px 15px -15px #323232;
+    position: relative;
+}
+
+.content{
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    transition: border 1s;
+    position: relative;
+}
+
+.content:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),
+}
+
+.space-btw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-img{
+    height: 30px;
+    width: 30px;
+}
+
+h2{
+    margin-left: -10px;
+}
+
+.hyperlink {
+    font-size: 26px;
+    margin-left: -15px;
+    color: rgb(0, 0, 0); /* Default text color for the hyperlink */
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s ease; /* Add a smooth transition for the color change */
+  
+    /* Hover effect */
+    &:hover {
+      color: rgb(0, 144, 227); /* Change text color on hover */
+    }
+  }

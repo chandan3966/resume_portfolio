@@ -1,0 +1,9 @@
+.social-stack{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-stack a{
+    margin-right: -15px;
+}

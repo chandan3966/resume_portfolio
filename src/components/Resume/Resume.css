@@ -1,0 +1,21 @@
+.resume-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.tab-content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow-y: scroll;
+    height: 70vh;
+    width: 100%;
+}
+
+.listitem{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+} 
