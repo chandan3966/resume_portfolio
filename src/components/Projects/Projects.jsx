@@ -24,7 +24,7 @@ function Projects() {
     <div className="projects-container">
       <div className={`animated-component ${animationStarted ? 'animate' : ''}`}>
         <div class="yellow-rectangle-new_projects"/>
-        <h1>Projects i've worked on ... </h1>
+        <h1>Projects crafted by my Hands 🙌 </h1>
       </div>
 
       <div className="grid">
@@ -50,6 +50,7 @@ function Projects() {
                       <div className="project-buttons">
                         {value.document !== '' ? <Button href={value.document} target="_blank" variant="link" >View GitHub</Button>: ''}
                         {value.producturl !== '' ? <Button href={value.producturl} target="_blank" variant="link" >View Product</Button>: ''}
+                        {value.producturl === '' && value.document === ''? <Button variant="text" >Company Confidential</Button>: ''}
                       </div>
                       
                     </CardContent>

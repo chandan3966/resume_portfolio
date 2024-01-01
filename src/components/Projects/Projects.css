@@ -35,9 +35,11 @@
 .projects-container h1{
     color: black;
     z-index: 1;
-    margin-top: 8vh;
+    margin-top: 4vh;
     display: inline-block;
-}
+    font-family: 'Dancing Script', cursive;
+    font-size: 7svb;
+  }
 
 .card-grid {
     
