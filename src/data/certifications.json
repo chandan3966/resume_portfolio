@@ -2,6 +2,17 @@
     "type":"certifications",
     "items":[
         {
+            "name": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
+            "location": "Online",
+            "role": "Length: 42 Hours",
+            "startDate":"",
+            "endDate":"January 5, 2024",
+            "desc": "Graduates acquire a deep understanding of Node.js, Express, and MongoDB, mastering the foundations of backend web development.<br/> The course imparts practical skills through hands-on projects, enabling participants to build real-world applications and enhance their coding proficiency.<br/> Jonas Schmedtmann's expert instruction ensures learners are well-versed in the latest tools and best practices, preparing them for the dynamic landscape of web development.<br/> Upon completion, students receive a comprehensive skill set, empowering them to confidently design and implement scalable, efficient, and feature-rich web applications using cutting-edge technologies.<br/>",
+            "instructor": "Udemy",
+            "image":"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://udemy.com&size=64",
+            "redirecturl":"https://www.udemy.com/certificate/UC-da6ee444-2912-409e-8ce9-34d0766718d5/"
+        },
+        {
             "name": "SQL (Intermediate) Certificate",
             "location": "Online assessment",
             "role": "Length: 1 Hours",
