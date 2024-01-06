@@ -1,6 +1,13 @@
 .main-container{
-    height: 78vh;
+    flex: 1;
+    /* height: 78vh; */
     width: 100%;
     margin: 0 auto; 
     position: relative;
+}
+
+.flexer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }

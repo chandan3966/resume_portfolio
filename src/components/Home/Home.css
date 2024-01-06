@@ -1,6 +1,7 @@
 
 .home-container{
     z-index: -1;
+    min-height: 78vh;
 }
 
 .animated-component {

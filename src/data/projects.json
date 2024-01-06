@@ -2,6 +2,19 @@
     "type":"projects",
     "items":[
         {
+            "name": "Natours",
+            "location": "Worcester, MA, USA",
+            "platform": "Web Application",
+            "startDate":"Dec, 2023",
+            "endDate":"Jan, 2024",
+            "shortdesc":"Web Application user to tourists to check tour packages and make a booking.",
+            "desc": "By improving and incorporating novel features into established android applications, a significant increase in user engagement of 22% was realized <br/> Employed third-party APIs to facilitate seamless access to external, in-app cloud data <br/> Oversaw development of proprietary SDK for advertisements and data for organization, resulting in 9.6% increase in overall revenue.<br/> Maintained comprehensive knowledge of mobile development cycle and addressed challenges arising in each phase",
+            "techstack": ["Kotlin","XML","Java","Figma","Android SDK","Rest API","Firebase","Google Ads SDK","Git"],
+            "producturl":"https://natours3-afde173665a9.herokuapp.com/",
+            "document":"https://github.com/chandan3966/natours",
+            "imageurl":"https://i.imgur.com/kphClOF.png"
+        },
+        {
             "name": "Speak in English",
             "location": "Hyderabad, India",
             "platform": "Android",
@@ -59,7 +72,7 @@
             "platform": "Android",
             "startDate":"Sep, 2021",
             "endDate":"Aug, 2022",
-            "shortdesc":"Mobile application which acts as a browser along with file manager, phone cleaner and many more.",
+            "shortdesc":"Mobile application which acts as a browser along with file manager, phone cleaner.",
             "desc": "By improving and incorporating novel features into established android applications, a significant increase in user engagement of 22% was realized <br/> Employed third-party APIs to facilitate seamless access to external, in-app cloud data <br/> Oversaw development of proprietary SDK for advertisements and data for organization, resulting in 9.6% increase in overall revenue.<br/> Maintained comprehensive knowledge of mobile development cycle and addressed challenges arising in each phase",
             "techstack": ["Kotlin","XML","Java","Figma","Android SDK","Rest API","NodeJS","Express","MongoDB","Google Ads SDK","Git"],
             "producturl":"https://m.apkpure.com/browser-go-fast-web-browser/u.see.browser.for.uc.browser",
