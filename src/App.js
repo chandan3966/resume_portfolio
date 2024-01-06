@@ -6,6 +6,7 @@ import Resume from './components/Resume/Resume'
 import Footer from './components/Footer/NewFooter'
 import Contact from './components/Contact/Contact'
 import Projects from './components/Projects/Projects';
+import NotFound from './components/NotFound/NotFound';
 import './App.css'
 import Stack from 'react-bootstrap/Stack';
 
@@ -22,6 +23,7 @@ function App() {
               <Route path='/projects' element={<Projects/>}/>
               <Route path='/contact' element={<Contact/>}/>
               <Route path='/' element={<Home/>}/>
+              <Route path="*" element={<NotFound/>}/>
             </Routes>
             
         </div>
