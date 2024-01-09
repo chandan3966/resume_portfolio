@@ -1,9 +1,39 @@
+
 .resume-container{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-content: center;
     width: 100%;
     min-height: 78vh;
+}
+
+  
+.animated-component-new {
+    position: relative;
+    right: -100%; /* Start off-screen on the left */
+    visibility: hidden;
+    transition: right 0.5s ease-in-out; /* Add a smooth transition effect */
+  }
+  
+  .animate-new {
+    visibility: visible;
+    right: 0; /* Move to the final position (on-screen) */
+  }
+
+  .yellow-rectangle_new {
+    width: 50%;
+    height: 100%;
+    position:absolute; /* Fixed position to stay in place */
+    top: 0; /* Align to the top of the screen */
+    right: 0;
+    z-index: -1;
+    min-height: 78vh;
+    background-color: yellow;
+}
+
+.content{
+    z-index: 1;
 }
 
 .tab-content{
@@ -14,9 +44,3 @@
     height: auto;
     width: 100%;
 }
-
-.listitem{
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-} 

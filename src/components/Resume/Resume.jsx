@@ -13,9 +13,28 @@ import DATA_ACHE from '../../data/achievements.json'
 
 function Resume() {
   const [key, setKey] = useState('experience');
+  const [animationStarted, setAnimationStarted] = useState(false);
+
+  useEffect(() => {
+
+    setAnimationStarted(true);
+    
+  }, []);
 
   return (
     <div className="resume-container">
+
+      <div className={`animated-component-new ${animationStarted ? 'animate-new' : ''}`}>
+        {
+          key === 'experience' ? <div class="yellow-rectangle_new" style={{ height: 1000}}/>:
+          key === 'education' ? <div class="yellow-rectangle_new" style={{ height: 1200}}/>:
+          key === 'achievements' ? <div class="yellow-rectangle_new" style={{ height: 1000}}/>:
+          key === 'certifications' ? <div class="yellow-rectangle_new" style={{ height: 2500}}/>: ''
+        }
+        {/* <div class="yellow-rectangle_new" style={{ height: calculatedHeight}}/> */}
+        
+      </div>
+    
       <div className="content">
         <Tabs
           id="controlled-tab-example"

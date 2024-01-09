@@ -7,14 +7,14 @@
     text-align: center;
 }
 
-.animated-component {
+.animated-component-projects {
     position: relative;
     top: -100%; /* Start off-screen on the left */
     visibility: hidden;
     transition: top 0.5s ease-in-out; /* Add a smooth transition effect */
 }
 
-.animate {
+.animate-projects {
     visibility: visible;
     top: 0; /* Move to the final position (on-screen) */
 }

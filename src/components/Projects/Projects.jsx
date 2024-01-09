@@ -22,7 +22,7 @@ function Projects() {
 
   return (
     <div className="projects-container">
-      <div className={`animated-component ${animationStarted ? 'animate' : ''}`}>
+      <div className={`animated-component-projects ${animationStarted ? 'animate-projects' : ''}`}>
         <div class="yellow-rectangle-new_projects"/>
         <h1>Projects crafted by my Hands 🙌 </h1>
       </div>
@@ -32,7 +32,7 @@ function Projects() {
           <Grid container justifyContent="center" spacing={8}>
             {projects.items.map((value) => (
               <Grid className='grid-item' key={value.name} item>
-                <Card  sx={{ maxWidth: 345, bgcolor: 'white',}}>
+                <Card  sx={{ maxWidth: 345, bgcolor: 'white',cursor: 'pointer'}}>
                   <CardActionArea className='card_content'>
                     <CardMedia
                       className='card-image'
