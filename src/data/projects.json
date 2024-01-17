@@ -10,7 +10,7 @@
             "shortdesc":"Web Application user to search Github users based on Handle.",
             "desc": "By improving and incorporating novel features into established android applications, a significant increase in user engagement of 22% was realized <br/> Employed third-party APIs to facilitate seamless access to external, in-app cloud data <br/> Oversaw development of proprietary SDK for advertisements and data for organization, resulting in 9.6% increase in overall revenue.<br/> Maintained comprehensive knowledge of mobile development cycle and addressed challenges arising in each phase",
             "techstack": ["Kotlin","XML","Java","Figma","Android SDK","Rest API","Firebase","Google Ads SDK","Git"],
-            "producturl":"https://endearing-piroshki-2e443e.netlify.app/",
+            "producturl":"https://github-finder369.netlify.app/",
             "document":"https://github.com/chandan3966/git_finder_app",
             "imageurl":"https://i.imgur.com/Dc9R8so.jpg"
         },
