@@ -34,13 +34,17 @@
 
 .content{
     z-index: 1;
+    position: relative;
+}
+
+.button_container{
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
 .tab-content{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    /* overflow-y: scroll; */
-    height: auto;
-    width: 100%;
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }

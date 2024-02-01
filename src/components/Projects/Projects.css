@@ -70,6 +70,17 @@
     margin-bottom: 2vh;
   }
 
+  .spinner_container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: transparent;
+  }
+
+  .inner_spinner{
+    align-items: center;
+  }
+
   .project-buttons{
     margin-top: 1vh;
     display: flex;

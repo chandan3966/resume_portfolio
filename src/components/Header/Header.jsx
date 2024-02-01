@@ -14,11 +14,11 @@ function  Header({text,bgColor, color}) {
   return (
         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
             <Container>
-                <Navbar.Brand href="#home">Sai Chandan Marri /</Navbar.Brand>
+                <Navbar.Brand href="#home">Chandan's Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                    <p className='sub_heading'>Master's in Computer Science Student</p>
+                    <p className='sub_heading'></p>
                 </Nav>
 
                 <Nav variant="underline" defaultActiveKey="/home">

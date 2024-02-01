@@ -1,13 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import DownloadBtn from '../utils/Downloadbtn/DownloadBtn'
 import './Resume.css'
 import List from '../utils/List/List';
-import DATA from '../../data/experiences'
-import DATA_EDU from '../../data/education.json'
-import DATA_CERT from '../../data/certifications.json'
-import DATA_ACHE from '../../data/achievements.json'
-
+import axios from 'axios';
+import Spinner from 'react-bootstrap/Spinner';
 
 // https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://hackerrank.com&size=64
 
@@ -15,10 +13,53 @@ function Resume() {
   const [key, setKey] = useState('experience');
   const [animationStarted, setAnimationStarted] = useState(false);
 
-  useEffect(() => {
+  const [experience, setExperience] = useState(null);
+  const [education, setEducation] = useState(null);
+  const [achievements, setAchievements] = useState(null);
+  const [certifications, setCertifications] = useState(null);
 
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  const fetchData = async (url,value) => {
+    setIsLoading(true);
+    setError(null);
+    try {
+      const response = await axios.get(url,{
+        headers: {
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*'
+          // Add any other headers here
+        }
+      });
+      if(value === 1){
+        setExperience(response.data.data.docs)
+      }
+      else if(value === 2){
+        setEducation(response.data.data.docs)
+      }
+      else if(value === 3){
+        setAchievements(response.data.data.docs)
+      }
+      else{ 
+        setCertifications(response.data.data.docs)
+      }
+    } catch (error) {
+      setError('Fetching data failed');
+      console.error(error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    // Trigger the animation after the component is mounted
     setAnimationStarted(true);
-    
+    fetchData('https://stark-thicket-60808-86ea69a777ed.herokuapp.com/api/v1/experience',1)
+    fetchData('https://stark-thicket-60808-86ea69a777ed.herokuapp.com/api/v1/education',2)
+    fetchData('https://stark-thicket-60808-86ea69a777ed.herokuapp.com/api/v1/achievement',3)
+    fetchData('https://stark-thicket-60808-86ea69a777ed.herokuapp.com/api/v1/certification',4)
+
   }, []);
 
   return (
@@ -36,6 +77,9 @@ function Resume() {
       </div>
     
       <div className="content">
+        <div className="button_container">
+          <DownloadBtn/>
+        </div>
         <Tabs
           id="controlled-tab-example"
           defaultActiveKey="experience"
@@ -45,22 +89,38 @@ function Resume() {
         >
           <Tab eventKey="experience" title="Experience">
             <div className="tab-content">
-              <List data = {DATA}>  </List>
+              {experience ? <List data = {experience}>  </List>: 
+              <Spinner className='inner_spinner' animation="border" role="status">
+                <span className="visually-hidden">Loading...</span>
+              </Spinner>
+              }
             </div>
           </Tab>
           <Tab eventKey="education" title="Education">
             <div className="tab-content">
-            <List data = {DATA_EDU}>  </List>
+              {education ? <List data = {education}>  </List>: 
+              <Spinner className='inner_spinner' animation="border" role="status">
+                <span className="visually-hidden">Loading...</span>
+              </Spinner>
+              }
             </div>
           </Tab>
           <Tab eventKey="achievements" title="Achievements">
             <div className="tab-content">
-              <List data = {DATA_ACHE}>  </List>
+              {achievements ? <List data = {achievements}>  </List>: 
+              <Spinner className='inner_spinner' animation="border" role="status">
+                <span className="visually-hidden">Loading...</span>
+              </Spinner>
+              }
             </div>
           </Tab>
           <Tab eventKey="certifications" title="Certifications">
             <div className="tab-content">
-              <List data={DATA_CERT}></List>
+              {certifications ? <List data={certifications}></List>: 
+              <Spinner className='inner_spinner' animation="border" role="status">
+                <span className="visually-hidden">Loading...</span>
+                </Spinner>
+                }
             </div>
           </Tab>
         </Tabs>

@@ -9,16 +9,55 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import projects from '../../data/projects.json'
 import Stack from '@mui/material/Stack';
-
+import axios from 'axios';
+import { Loader } from 'rsuite';
+import Spinner from 'react-bootstrap/Spinner';
 
 
 function Projects() {
   const [animationStarted, setAnimationStarted] = useState(false);
+  const [data, setData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
+    
     // Trigger the animation after the component is mounted
-    setAnimationStarted(true);
+    axios.get('https://stark-thicket-60808-86ea69a777ed.herokuapp.com/api/v1/project',{
+      headers: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*'
+        // Add any other headers here
+      }
+    })
+      .then(response => {
+        setData(response.data.data.docs);
+        setAnimationStarted(true);
+
+        setIsLoading(false)
+      })
+      .catch(error => {
+        setIsLoading(false)
+        console.error("Error fetching data: ", error.message);
+      })
+      
   }, []);
+
+  const spinner = 
+  <div className='spinner_container'>
+    <Spinner className='inner_spinner' animation="border" role="status">
+      <span className="visually-hidden">Loading...</span>
+    </Spinner>
+  </div> ;
+
+  // if (isLoading) {
+  //   return spinner;
+  // }
+
+  if (error) {
+    return <div>{error}</div>;
+  }
+
 
   return (
     <div className="projects-container">
@@ -28,9 +67,10 @@ function Projects() {
       </div>
 
       <div className="grid">
-        <Grid item xs={3}>
+        {
+          data? <Grid item xs={3}>
           <Grid container justifyContent="center" spacing={8}>
-            {projects.items.map((value) => (
+            {data.map((value) => (
               <Grid className='grid-item' key={value.name} item>
                 <Card  sx={{ maxWidth: 345, bgcolor: 'white',cursor: 'pointer'}}>
                   <CardActionArea className='card_content'>
@@ -59,7 +99,9 @@ function Projects() {
               </Grid>
             ))}
           </Grid>
-        </Grid>
+              </Grid>: spinner
+        }
+        
       </div>
      
     </div>

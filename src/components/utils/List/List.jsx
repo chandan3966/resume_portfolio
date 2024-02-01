@@ -4,12 +4,11 @@ import Listitem from '../ListItem/Listitem'
 import ListGroup from 'react-bootstrap/ListGroup';
 
 function List({data}) {
-    const res = data;
-    console.log(res);
+    const type = data[0].type
     return (
       <div>
-          {res.items.map((item) => (
-              <Listitem type={res.type} res={item} />
+          {data[0].items.map((item) => (
+              <Listitem type={type} res={item} />
           ))}
       </div>
     );
