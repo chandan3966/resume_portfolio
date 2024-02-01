@@ -2,6 +2,17 @@
     "type":"certifications",
     "items":[
         {
+            "name": "Ultimate AWS Certified Cloud Practitioner CLF-C02",
+            "location": "Online",
+            "role": "Length: 15 Hours",
+            "startDate":"",
+            "endDate":"January 30, 2024",
+            "desc": "Demonstrates a foundational understanding of AWS core services, architecture, and cloud concepts.<br/>Validates knowledge of AWS security, compliance, and operational practices.<br/>Highlights ability in AWS pricing, billing, and cloud economics.<br/>Serves as a stepping stone for more advanced AWS certifications and cloud computing roles.<br/>",
+            "instructor": "Udemy",
+            "image":"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://udemy.com&size=64",
+            "redirecturl":"https://www.udemy.com/certificate/UC-22e84af3-a8b3-4d1a-a144-28f9a19a93f8/"
+        },
+        {
             "name": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
             "location": "Online",
             "role": "Length: 42 Hours",
