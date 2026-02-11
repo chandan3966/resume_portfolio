@@ -25,7 +25,7 @@ function Home(props) {
       </div>
 
       <div className={`info-container ${animationStarted ? 'animate-data' : ''}`}>
-        <Stack direction='horizontal' gap={2}>
+        <div className="horizontal-stack">
           <div class="card-view">
             <div class="card">
 
@@ -61,7 +61,7 @@ function Home(props) {
               </Stack>
             </div>
           </div>
-        </Stack>
+        </div>
       </div>
       
       

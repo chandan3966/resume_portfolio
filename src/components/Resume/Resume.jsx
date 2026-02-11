@@ -6,6 +6,8 @@ import './Resume.css'
 import List from '../utils/List/List';
 import axios from 'axios';
 import Spinner from 'react-bootstrap/Spinner';
+import api from '../../api/axios';
+
 
 // https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://hackerrank.com&size=64
 
@@ -25,7 +27,7 @@ function Resume() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await axios.get(url,{
+      const response = await api.get(url,{
         headers: {
           'Content-Type': 'application/json',
           'Access-Control-Allow-Origin': '*'
@@ -55,10 +57,10 @@ function Resume() {
   useEffect(() => {
     // Trigger the animation after the component is mounted
     setAnimationStarted(true);
-    fetchData('https://stark-thicket-60808-86ea69a777ed.herokuapp.com/api/v1/experience',1)
-    fetchData('https://stark-thicket-60808-86ea69a777ed.herokuapp.com/api/v1/education',2)
-    fetchData('https://stark-thicket-60808-86ea69a777ed.herokuapp.com/api/v1/achievement',3)
-    fetchData('https://stark-thicket-60808-86ea69a777ed.herokuapp.com/api/v1/certification',4)
+    fetchData('/api/v1/experience',1)
+    fetchData('/api/v1/education',2)
+    fetchData('/api/v1/achievement',3)
+    fetchData('/api/v1/certification',4)
 
   }, []);
 

@@ -20,7 +20,7 @@ export default function App() {
           <a href="https://www.instagram.com/chand3966ms/" target="_blank" className='me-4 text-reset'>
             <MDBIcon fab icon="instagram" />
           </a>
-          <a href="https://www.linkedin.com/in/m-s-chandan-92a102185/" target="_blank" className='me-4 text-reset'>
+          <a href="https://www.linkedin.com/in/sai-chandan-m-92a102185/" target="_blank" className='me-4 text-reset'>
             <MDBIcon fab icon="linkedin" />
           </a>
           <a href="https://github.com/chandan3966" target="_blank" className='me-4 text-reset'>
@@ -51,10 +51,10 @@ export default function App() {
               </p>
               <p>
                 <MDBIcon icon="envelope" className="me-3" />
-                saichandan.marri.ofus@gmail.com
+                saichandan3226@zohomail.com
               </p>
               <p>
-                <MDBIcon icon="phone" className="me-3" /> + 1 (774) 243-4965
+                <MDBIcon icon="phone" className="me-3" /> + 1 (401) 267-8626
               </p>
             </MDBCol>
           </MDBRow>
@@ -62,10 +62,10 @@ export default function App() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2023 Copyright:
-        <a className='text-reset fw-bold' href='https://mschandan.com/'>
+        © 2023 Copyright: Sai Chandan Marri
+        {/* <a className='text-reset fw-bold' href='https://mschandan.com/'>
           MSChandan.com
-        </a>
+        </a> */}
       </div>
     </MDBFooter>
   );

@@ -1,3 +1,84 @@
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+  .projects-container h1{
+    color: black;
+    z-index: 1;
+    margin-top: 4vh;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4svb;
+  }
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .projects-container h1{
+    color: black;
+    z-index: 1;
+    margin-top: 2vh;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5svb;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .projects-container h1{
+    color: black;
+    z-index: 1;
+    margin-top: 2vh;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5svb;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .projects-container h1{
+    color: black;
+    z-index: 1;
+    margin-top: 4vh;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7svb;
+  }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+  .projects-container h1{
+    color: black;
+    z-index: 1;
+    margin-top: 4vh;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7svb;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .projects-container h1{
+    color: black;
+    z-index: 1;
+    margin-top: 4vh;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7svb;
+  }
+}
+
+@media (min-width: 1921px) {
+  .projects-container h1{
+    color: black;
+    z-index: 1;
+    margin-top: 4vh;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 7svb;
+  }
+}
 
 .projects-container{
     width: 100%;
@@ -33,14 +114,7 @@
     width: 100%;
     background-color: transparent;
 } */
-.projects-container h1{
-    color: black;
-    z-index: 1;
-    margin-top: 4vh;
-    display: inline-block;
-    font-family: 'Dancing Script', cursive;
-    font-size: 7svb;
-  }
+
 
 .card-grid {
     

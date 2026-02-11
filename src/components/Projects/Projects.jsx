@@ -12,6 +12,7 @@ import Stack from '@mui/material/Stack';
 import axios from 'axios';
 import { Loader } from 'rsuite';
 import Spinner from 'react-bootstrap/Spinner';
+import api from '../../api/axios';
 
 
 function Projects() {
@@ -19,11 +20,13 @@ function Projects() {
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
 
+  console.log('ENV:', process.env);
   useEffect(() => {
     
     // Trigger the animation after the component is mounted
-    axios.get('https://stark-thicket-60808-86ea69a777ed.herokuapp.com/api/v1/project',{
+    api.get(`/api/v1/project`,{
       headers: {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*'

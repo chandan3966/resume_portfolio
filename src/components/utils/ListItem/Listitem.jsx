@@ -6,9 +6,14 @@ import HTMLRenderer from '../HTMLRenderer';
 import Image from 'react-bootstrap/Image';
 import Badge from 'react-bootstrap/Badge';
 import Stack from 'react-bootstrap/Stack';
+import { useMediaQuery } from 'react-responsive';
 
 
 function Listitem({type, res}) {
+  const isMobile = useMediaQuery({ query: '(max-width: 480px)' });
+  const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 1024px)' });
+  const isLargeTablet = useMediaQuery({ query: '(min-width: 1025px) and (max-width: 1280px)' });
+
     if(type === 'experience' || type === 'education'){
         return (
             <div className="card-container">
@@ -19,19 +24,31 @@ function Listitem({type, res}) {
                     </div>
                     
                     <div className="space-btw">
-                        <h5>{res.role}</h5>
+                        <p className='role-text'>{res.role}</p>
                         <p>{res.startDate+ '-' + res.endDate}</p>
                     </div>
+
+                    <ul>
+                      {res.desc.map((item, index) => (
+                        <li key={index}>{item}</li>
+                      ))}
+                    </ul>
                     
-                    <span>
-                        <p><HTMLRenderer htmlContent={res.desc}/></p>
-                    </span>
-                    {type === 'experience' ? (
-                        <Stack direction="horizontal" gap={2}>
+                    {/* <span>
+                        <p className='desc-text'><HTMLRenderer htmlContent={res.desc}/></p>
+                    </span> */}
+                    {type === 'experience' && !isMobile && !(isTablet || isLargeTablet)? (
+                        <Stack className='badge-stack' direction="horizontal" gap={2}>
                           {res.skills.map((item) => (
                             <Badge bg="secondary" key={item}>{item}</Badge>
                           ))}
                         </Stack>
+                      ) : ''
+                    }
+                    {type === 'experience' && (isMobile || isLargeTablet || isTablet)? (
+                        res.skills.map((item) => (
+                          <Badge className='badge-tag' bg="secondary" key={item}>{item} </Badge>
+                        ))
                       ) : ''
                     }
                     
@@ -47,18 +64,20 @@ function Listitem({type, res}) {
                   <div className="space-btw">
                   <Stack direction="horizontal" gap={3}>
                       <div className="p-2"><Image className='icon-img' src={res.image} rounded /></div>
-                      <div className="p-2"><h2>{res.name}</h2></div>
+                      <a className='hyperlink' href={res.companyurl} target='_blank'>{res.name}</a>
                   </Stack>
                     <p>{res.location}</p>
                   </div>
                 <div className="space-btw">
-                    <h5>{res.role}</h5>
+                    <p className='role-text'>{res.role}</p>
                     <p>{res.endDate}</p>
                 </div>
                 
-                <span>
-                    <p><HTMLRenderer htmlContent={res.desc}/></p>
-                </span>
+                <ul>
+                  {res.desc.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
                 <Button href={res.redirecturl} target="_blank" variant="link">View Certificate</Button>
             </div>
         </div>

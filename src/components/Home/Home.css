@@ -1,3 +1,160 @@
+/* Mobile */
+@media screen and (max-width: 480px) {
+    .card-view,.text-view{
+        width: 100%;
+        display: flex;
+        opacity: 1;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .work-desc{
+        text-align: justify;
+        width: 100%;
+    }
+
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card-view,.text-view{
+        width: 50%;
+        display: flex;
+        opacity: 1;
+        padding: 10px;
+    }
+    
+    .card-view{
+        justify-content: right;
+    }
+    
+    .text-view{
+        justify-content: left;
+    }
+
+    .horizontal-stack{
+        display: flex;
+        align-items: center; /* This aligns items vertically at the center, can be adjusted as needed */
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .card-view,.text-view{
+        width: 50%;
+        display: flex;
+        opacity: 1;
+        padding: 10px;
+    }
+    
+    .card-view{
+        justify-content: right;
+    }
+    
+    .text-view{
+        justify-content: left;
+    }
+
+    .horizontal-stack{
+        display: flex;
+        align-items: center; /* This aligns items vertically at the center, can be adjusted as needed */
+        justify-content: space-around;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) and (max-width: 1366px) {
+    .card-view,.text-view{
+        width: 50%;
+        display: flex;
+        opacity: 1;
+        padding: 10px;
+    }
+    
+    .card-view{
+        justify-content: right;
+    }
+    
+    .text-view{
+        justify-content: left;
+    }
+
+    .horizontal-stack{
+        display: flex;
+        align-items: center; /* This aligns items vertically at the center, can be adjusted as needed */
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1440px) {
+    .card-view,.text-view{
+        width: 50%;
+        display: flex;
+        opacity: 1;
+        padding: 10px;
+    }
+    
+    .card-view{
+        justify-content: right;
+    }
+    
+    .text-view{
+        justify-content: left;
+    }
+
+    .horizontal-stack{
+        display: flex;
+        align-items: center; /* This aligns items vertically at the center, can be adjusted as needed */
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .card-view,.text-view{
+        width: 50%;
+        display: flex;
+        opacity: 1;
+        padding: 10px;
+    }
+    
+    .card-view{
+        justify-content: right;
+    }
+    
+    .text-view{
+        justify-content: left;
+    }
+
+    .horizontal-stack{
+        display: flex;
+        align-items: center; /* This aligns items vertically at the center, can be adjusted as needed */
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1921px) {
+    .card-view,.text-view{
+        width: 50%;
+        display: flex;
+        opacity: 1;
+        padding: 10px;
+    }
+    
+    .card-view{
+        justify-content: right;
+    }
+    
+    .text-view{
+        justify-content: left;
+    }
+
+    .horizontal-stack{
+        display: flex;
+        align-items: center; /* This aligns items vertically at the center, can be adjusted as needed */
+        justify-content: space-around;
+    }
+}
+
 
 .home-container{
     z-index: -1;
@@ -51,29 +208,6 @@
     height: auto; 
 }
 
-
-.card-view,.text-view{
-    width: 50%;
-    display: flex;
-    opacity: 1;
-    padding: 10px;
-}
-
-.card-view{
-    justify-content: right;
-}
-
-.text-view{
-    justify-content: left;
-}
-
-
-@media screen and (max-width: 600px) {
-    .card-view,.text-view {
-       width: 100%;
-       float: none
-    }
-}
 
 .card {
     width: 300px;

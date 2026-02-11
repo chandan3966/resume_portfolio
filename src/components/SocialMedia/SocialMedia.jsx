@@ -16,7 +16,7 @@ function SocialMedia() {
         <a href="https://www.instagram.com/chand3966ms/" target="_blank" rel="noreferrer">
             <img src={instagram} alt="Description of the image"/>
         </a>
-        <a href="https://www.linkedin.com/in/m-s-chandan-92a102185/" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/sai-chandan-m-92a102185/" target="_blank" rel="noreferrer">
             <img src={linkedin} alt="Description of the image"/>
         </a>
         <a href="https://twitter.com/Mar31713Sai" target="_blank" rel="noreferrer">

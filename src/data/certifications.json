@@ -7,7 +7,12 @@
             "role": "Length: 15 Hours",
             "startDate":"",
             "endDate":"January 30, 2024",
-            "desc": "Demonstrates a foundational understanding of AWS core services, architecture, and cloud concepts.<br/>Validates knowledge of AWS security, compliance, and operational practices.<br/>Highlights ability in AWS pricing, billing, and cloud economics.<br/>Serves as a stepping stone for more advanced AWS certifications and cloud computing roles.<br/>",
+            "desc": [
+                "Demonstrates a foundational understanding of AWS core services, architecture, and cloud concepts.",
+                "Validates knowledge of AWS security, compliance, and operational practices.",
+                "Highlights ability in AWS pricing, billing, and cloud economics.",
+                "Serves as a stepping stone for more advanced AWS certifications and cloud computing roles."
+                ],
             "instructor": "Udemy",
             "image":"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://udemy.com&size=64",
             "redirecturl":"https://www.udemy.com/certificate/UC-22e84af3-a8b3-4d1a-a144-28f9a19a93f8/"
@@ -18,7 +23,12 @@
             "role": "Length: 42 Hours",
             "startDate":"",
             "endDate":"January 5, 2024",
-            "desc": "Graduates acquire a deep understanding of Node.js, Express, and MongoDB, mastering the foundations of backend web development.<br/> The course imparts practical skills through hands-on projects, enabling participants to build real-world applications and enhance their coding proficiency.<br/> Jonas Schmedtmann's expert instruction ensures learners are well-versed in the latest tools and best practices, preparing them for the dynamic landscape of web development.<br/> Upon completion, students receive a comprehensive skill set, empowering them to confidently design and implement scalable, efficient, and feature-rich web applications using cutting-edge technologies.<br/>",
+            "desc": [
+                "Graduates acquire a deep understanding of Node.js, Express, and MongoDB, mastering the foundations of backend web development.",
+                "The course imparts practical skills through hands-on projects, enabling participants to build real-world applications and enhance their coding proficiency.",
+                "Jonas Schmedtmann's expert instruction ensures learners are well-versed in the latest tools and best practices, preparing them for the dynamic landscape of web development.",
+                "Upon completion, students receive a comprehensive skill set, empowering them to confidently design and implement scalable, efficient, and feature-rich web applications using cutting-edge technologies"
+                ],
             "instructor": "Udemy",
             "image":"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://udemy.com&size=64",
             "redirecturl":"https://www.udemy.com/certificate/UC-da6ee444-2912-409e-8ce9-34d0766718d5/"
@@ -29,7 +39,12 @@
             "role": "Length: 1 Hours",
             "startDate":"",
             "endDate":"December 17, 2023",
-            "desc": "Attained proficiency in SQL through HackerRank's Intermediate Certification, showcasing a strong understanding of database querying and manipulation.<br/>Developed the ability to solve complex SQL challenges, demonstrating problem-solving skills crucial for data-related roles.<br/> Acquired skills to analyze and extract valuable insights from databases, enhancing my capabilities in data-driven decision-making.<br/> HackerRank's Intermediate SQL Certificate serves as a recognized validation of my SQL expertise, bolstering my credibility as a skilled database professional.<br/>",
+            "desc": [
+                "Attained proficiency in SQL through HackerRank's Intermediate Certification, showcasing a strong understanding of database querying and manipulation.",
+                "Developed the ability to solve complex SQL challenges, demonstrating problem-solving skills crucial for data-related roles.",
+                "Acquired skills to analyze and extract valuable insights from databases, enhancing my capabilities in data-driven decision-making.",
+                "HackerRank's Intermediate SQL Certificate serves as a recognized validation of my SQL expertise, bolstering my credibility as a skilled database professional."
+                ],
             "instructor": "Hackerrank",
             "image":"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://hackerrank.com&size=64",
             "redirecturl":"https://www.hackerrank.com/certificates/34b7480f2e36"
@@ -40,7 +55,12 @@
             "role": "Length: 21 Hours",
             "startDate":"",
             "endDate":"April 20, 2023",
-            "desc": "Gain a solid understanding of Dart and Flutter, starting from the basics and progressing to more advanced topics.<br/>Experience the productivity of Flutter with features like hot-reload, making app development efficient and enjoyable.<br/>Develop a complete, real-world application for iOS and Android, integrating Firebase to create modern reactive apps.<br/>Learn to write production-ready code, ensuring your Flutter applications are robust, scalable, and ready for deployment.<br/>",
+            "desc": [
+                "Gain a solid understanding of Dart and Flutter, starting from the basics and progressing to more advanced topics.",
+                "Experience the productivity of Flutter with features like hot-reload, making app development efficient and enjoyable.",
+                "Develop a complete, real-world application for iOS and Android, integrating Firebase to create modern reactive apps.",
+                "Learn to write production-ready code, ensuring your Flutter applications are robust, scalable, and ready for deployment."
+                ],
             "instructor": "Andrea Bizzoto - Udemy",
             "image":"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://udemy.com&size=64",
             "redirecturl":"http://ude.my/UC-8dbf9e74-08a3-4029-87c8-4cbfcbc61e52"
@@ -51,7 +71,12 @@
             "role": "Length: 1 Hours",
             "startDate":"",
             "endDate":"September 15, 2020",
-            "desc": "Achieved the HackerRank Problem Solving (Basic) Certificate, demonstrating a solid foundation in fundamental problem-solving techniques.<br/> Enhanced my ability to approach and solve algorithmic challenges, honing critical thinking skills essential for programming tasks.<br/> Learned to write efficient and optimized code, emphasizing the importance of clean and effective solutions to real-world problems.<br/> The HackerRank certificate serves as tangible proof of my problem-solving capabilities, validating my skills and boosting confidence in tackling coding challenges.<br/>",
+            "desc": [
+                "Achieved the HackerRank Problem Solving (Basic) Certificate, demonstrating a solid foundation in fundamental problem-solving techniques.",
+                "Enhanced my ability to approach and solve algorithmic challenges, honing critical thinking skills essential for programming tasks.",
+                "Learned to write efficient and optimized code, emphasizing the importance of clean and effective solutions to real-world problems.",
+                "The HackerRank certificate serves as tangible proof of my problem-solving capabilities, validating my skills and boosting confidence in tackling coding challenges."
+                ],
             "instructor": "Hackerrank",
             "image":"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://hackerrank.com&size=64",
             "redirecturl":"https://www.hackerrank.com/certificates/61b5cedc708a"
@@ -62,7 +87,12 @@
             "role": "Length: 6 weeks",
             "startDate":"",
             "endDate":"May 27, 2019",
-            "desc": "Successfully completed Internshala's Data Science training, gaining a solid understanding of fundamental concepts and methodologies.<br/> Applied theoretical knowledge to real-world scenarios, honing skills in data analysis, visualization, and machine learning.<br/> Acquired proficiency in industry-standard tools like Python, Jupyter Notebooks, and libraries such as Pandas and Matplotlib.<br/> Received a recognized certificate, validating my readiness to contribute effectively to data science projects and providing a competitive edge in the field.<br/>",
+            "desc": [
+                "Successfully completed Internshala's Data Science training, gaining a solid understanding of fundamental concepts and methodologies.",
+                "Applied theoretical knowledge to real-world scenarios, honing skills in data analysis, visualization, and machine learning.",
+                "Acquired proficiency in industry-standard tools like Python, Jupyter Notebooks, and libraries such as Pandas and Matplotlib.",
+                "Received a recognized certificate, validating my readiness to contribute effectively to data science projects and providing a competitive edge in the field."
+                ],
             "instructor": "Internshala",
             "image":"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://internshala.com&size=64",
             "redirecturl":"https://drive.google.com/file/d/1GOsPLlXau5Ril-gqPY4g3JzEaWzChjUN/view?usp=drive_link"
@@ -73,7 +103,12 @@
             "role": "Length: 6 weeks",
             "startDate":"",
             "endDate":"May 27, 2019",
-            "desc": "Completed Internshala's Angular training, gaining a thorough understanding of the framework's concepts and architecture.<br/> Applied theoretical knowledge to practical projects, developing interactive and dynamic web applications using Angular.<br/> Acquired skills in building responsive and user-friendly interfaces, enhancing my capabilities as a front-end developer.<br/> Earned a certificate validating my proficiency in Angular, providing a recognized credential and boosting confidence in pursuing front-end development roles.<br/>",
+            "desc": [
+                "Completed Internshala's Angular training, gaining a thorough understanding of the framework's concepts and architecture.",
+                "Applied theoretical knowledge to practical projects, developing interactive and dynamic web applications using Angular.",
+                "Acquired skills in building responsive and user-friendly interfaces, enhancing my capabilities as a front-end developer.",
+                "Earned a certificate validating my proficiency in Angular, providing a recognized credential and boosting confidence in pursuing front-end development roles."
+                ],
             "instructor": "Internshala",
             "image":"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://internshala.com&size=64",
             "redirecturl":"https://drive.google.com/file/d/1ZAd5czaZKscftf43TlxJelAH0swg4e6F/view?usp=drive_link"
@@ -84,7 +119,12 @@
             "role": "Length: 2.5 Hours",
             "startDate":"",
             "endDate":"October 28, 2019",
-            "desc": "Successfully translated Adobe XD designs into Android Studio XML, implementing a seamless user interface and ensuring a consistent design language.<br/>Leveraged XML in Android Studio to create interactive and animated prototypes, enhancing user experience and engagement.<br/> Gained proficiency in both design and development, bridging the gap between UI/UX design concepts in Adobe XD and their implementation in Android Studio.<br/> Acquired practical experience in the end-to-end process of design implementation and animation, enriching my skill set as a multidisciplinary designer-developer.<br/>",
+            "desc": [
+                "Successfully translated Adobe XD designs into Android Studio XML, implementing a seamless user interface and ensuring a consistent design language.",
+                "Leveraged XML in Android Studio to create interactive and animated prototypes, enhancing user experience and engagement.",
+                "Gained proficiency in both design and development, bridging the gap between UI/UX design concepts in Adobe XD and their implementation in Android Studio.",
+                "Acquired practical experience in the end-to-end process of design implementation and animation, enriching my skill set as a multidisciplinary designer-developer."
+                ],
             "instructor": "Stefan Jovanovic - Udemy",
             "image":"https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://udemy.com&size=64",
             "redirecturl":"https://drive.google.com/file/d/1QLXRho1kkroHeHXcPadBb8Pb0wmSJ1vf/view?usp=drive_link"

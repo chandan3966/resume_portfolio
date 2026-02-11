@@ -1,3 +1,41 @@
+/* Mobile */
+@media screen and (max-width: 600px) {
+
+  .button_container{
+    position: relative;
+    justify-content: flex-end;
+
+  }
+
+}
+
+/* Desktop */
+@media (min-width:801px){
+
+
+  .button_container{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS rules for small tablets */
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS rules for large tablets */
+}
+
+.tab-content{
+  display: grid;
+  place-items: center;
+  width: auto;
+  height: 100%;
+}
 
 .resume-container{
     display: flex;
@@ -37,14 +75,4 @@
     position: relative;
 }
 
-.button_container{
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
 
-.tab-content{
-  display: grid;
-  place-items: center;
-  height: 100%;
-}

@@ -7,18 +7,28 @@
             "role": "Software Development Engineer - 1",
             "startDate":"Sep, 2021",
             "endDate":"Mar, 2023",
-            "desc": "By improving and incorporating novel features into established android applications, a significant increase in user engagement of 22% was realized <br/> Employed third-party APIs to facilitate seamless access to external, in-app cloud data <br/> Oversaw development of proprietary SDK for advertisements and data for organization, resulting in 9.6% increase in overall revenue.<br/> Maintained comprehensive knowledge of mobile development cycle and addressed challenges arising in each phase",
+            "desc": [
+                "By improving and incorporating novel features into established android applications, a significant increase in user engagement of 22% was realized.",
+                "Employed third-party APIs to facilitate seamless access to external, in-app cloud data.",
+                "Oversaw development of proprietary SDK for advertisements and data for organization, resulting in 9.6% increase in overall revenue.",
+                "Maintained comprehensive knowledge of mobile development cycle and addressed challenges arising in each phase"
+                ],
             "jobtype": "full-time",
             "skills": ["Kotlin","XML","Java","Figma","Android SDK","Rest API","Firebase","Google Ads SDK","Play Store Console","Git"],
             "companyurl":"https://appyhigh.com/"
         },
         {
             "name": "Tata Consultancy Services",
-            "location": "Hyderabad, India",
+            "location": "Hyderabad, India", 
             "role": "Systems Engineer",
             "startDate":"July, 2020",
             "endDate":"Sep, 2021",
-            "desc": "Created Java code for use on server side. <br/> Working on React components which are critical for front-end team and perform proof of concepts for challenging problems in projects and guide front-end team. <br/>Responsible for efficient transfer of data and SQL queries. <br/>Integrated user interface components into software programs",
+            "desc": [
+                "Created Java code for use on server side.",
+                "Working on React components which are critical for front-end team and perform proof of concepts for challenging problems in projects and guide front-end team.",
+                "Responsible for efficient transfer of data and SQL queries.",
+                "Integrated user interface components into software programs"
+                ],
             "jobtype": "full-time",
             "skills": ["React","HTML","CSS","Javascript","Java","Rest API","SpringBoot","Git"],
             "companyurl":"https://www.tcs.com/"
@@ -29,7 +39,10 @@
             "role": "Android developer",
             "startDate":"Jan, 2020",
             "endDate":"Mar, 2020",
-            "desc": "Improving android application performance by optimizing logic and reducing crashes. <br/> Maintaining CI/CD by updating code repository with latest changes.",
+            "desc": [
+                "Improving android application performance by optimizing logic and reducing crashes.",
+                "Maintaining CI/CD by updating code repository with latest changes."
+                ],
             "jobtype": "Internship",
             "skills": ["Kotlin","XML","Java","Figma","Android SDK","Rest API","Firebase","Git"],
             "companyurl":"https://appyhigh.com/"
